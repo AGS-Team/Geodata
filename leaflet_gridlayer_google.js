@@ -583,10 +583,6 @@
 							L.DomUtil.remove(node);
 						}
 
-						// Check for, and remove, the "For development purposes only" divs on the aerial/hybrid tiles.
-						if (node.textContent.indexOf("For development purposes only") === 0) {
-							L.DomUtil.add(node);
-						}
 
 						// Check for, and remove, the "Sorry, we have no imagery here"
 						// empty <div>s. The [style*="text-align: center"] selector
