@@ -1,6 +1,6 @@
 L.Control.Overview = L.Control.extend({
   options: {
-    position: 'bottomleft'
+    position: 'bottomright'
   },
   
   // In order to keep the overview map in sync with the main map, each layer
