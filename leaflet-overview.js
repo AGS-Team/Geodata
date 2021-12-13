@@ -34,7 +34,7 @@ L.Control.Overview = L.Control.extend({
     
     var overview = this._overview = new L.Map(mapDiv, {
       layers:             [this._currentBaseLayer],
-      dragging:           false,
+      dragging:           true,
       touchZoom:          false,
       scrollWheelZoom:    false,
       doubleClickZoom:    false,
