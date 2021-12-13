@@ -1,3 +1,5 @@
+// http://areichman.github.io/leaflet-overview/src/leaflet-overview.js
+
 L.Control.Overview = L.Control.extend({
   options: {
     position: 'bottomright'
